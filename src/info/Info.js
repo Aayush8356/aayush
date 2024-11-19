@@ -1,7 +1,7 @@
 
 import pp from "../img/pp.png"
 import logo from "../img/logo.png"
-import mock1 from "../img/mock1.png"
+import mock1 from "../img/foodPoster.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
@@ -116,37 +116,37 @@ export const info = {
         {
             count:"Project 1",
             title: "WebFood",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://webfood.meetaayush.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/aayush8356/WebFood", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
             count:"Project 1",
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            title: "WebFood",
+            live: "https://webfood.meetaayush.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/aayush8356/WebFood", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock1
         },
         {
             count:"Project 1",
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
+            title: "WebFood",
+            live: "https://webfood.meetaayush.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/aayush8356/WebFood", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock1
         },
         {
             count:"Project 1",
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
+            title: "WebFood",
+            live: "https://webfood.meetaayush.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/aayush8356/WebFood", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock1
         },
         {
             count:"Project 1",
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
+            title: "WebFood",
+            live: "https://webfood.meetaayush.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/aayush8356/WebFood", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock1
         }
     ]
 }
