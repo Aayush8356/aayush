@@ -29,12 +29,16 @@ h2 {
 
 a {
   color: $dark;
-  transition: color 200ms ease;
+  // transition: color 200ms ease;
+  opacity: 0.7;
+  transition: transform 0.2s ease-in-out;
 }
 
 a:hover {
-  color: $lightgray;
-  transition: color 200ms ease;
+  // color: $lightgray;
+  // transition: color 200ms ease;
+  opacity: 1;
+  transform: scale(1.5);
 }
 
 @keyframes wave {
