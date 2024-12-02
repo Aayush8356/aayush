@@ -2,10 +2,10 @@
 import pp from "../img/pp.png"
 import logo from "../img/logo.png"
 import mock1 from "../img/foodPoster.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import mock2 from "../img/techyStar.png"
+import mock3 from "../img/chakraUI.png"
+import mock4 from "../img/socioRecepie.png"
+import mock5 from "../img/stonePaperScissor.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -34,6 +34,7 @@ export const info = {
     initials: "ag", // the example uses first and last, but feel free to use three or more if you like.
     logo: logo, // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
+    resume:"https://drive.google.com/file/d/16-_wqMMbmNjht5ndvSNaNZs6G3f2TLQV/view?usp=sharing",
     selfPortrait: pp, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(90deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -57,14 +58,9 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://facebook.com/itsmeaayush.01",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com/aayushgupta.me",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
+            link: "https://drive.google.com/file/d/16-_wqMMbmNjht5ndvSNaNZs6G3f2TLQV/view?usp=sharing",
+            icon: "fa fa-file",
+            label: 'resume'
         },
         {
             link: "https://github.com/aayush8356",
@@ -76,11 +72,7 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
+        
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
@@ -98,8 +90,8 @@ export const info = {
             emoji: '📖'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'music',
+            emoji: '🎵'
         },
         {
             label: 'movies',
@@ -114,39 +106,39 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            count:"Project 1",
+
             title: "WebFood",
             live: "https://webfood.meetaayush.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/aayush8356/WebFood", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            count:"Project 1",
-            title: "WebFood",
-            live: "https://webfood.meetaayush.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/aayush8356/WebFood", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+
+            title: "TechyStar",
+            live: "https://reactbasic-nine.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/aayush8356/", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock2
         },
         {
-            count:"Project 1",
-            title: "WebFood",
-            live: "https://webfood.meetaayush.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+
+            title: "ChakraTesting",
+            live: "https://testingchakra.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/aayush8356/WebFood", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            image: mock3
         },
         {
-            count:"Project 1",
-            title: "WebFood",
-            live: "https://webfood.meetaayush.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/aayush8356/WebFood", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+
+            title: "SocioRecepie",
+            live: "https://learning-tsx.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/Aayush8356/learningTSX", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock4
         },
         {
-            count:"Project 1",
-            title: "WebFood",
-            live: "https://webfood.meetaayush.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/aayush8356/WebFood", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+
+            title: "StonePaperScissor",
+            live: "https://stone-paper-scissor-iota.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/Aayush8356/Stone-Paper-Scissor", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock5
         }
     ]
 }
