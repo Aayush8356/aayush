@@ -44,10 +44,6 @@ export const info = {
             text: 'fueled by coffee'
         },
         {
-            emoji: '🌎',
-            text: 'based in the Nepal'
-        },
-        {
             emoji: "💼",
             text: "Freelancer"
         },
